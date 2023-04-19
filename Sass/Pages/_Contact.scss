@@ -1,0 +1,78 @@
+.ContactHTSS {
+    background-color: $BackgroundText
+}
+
+.TitreContact h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: $FontNathalie;
+    font-weight: 70;
+    font-size: 80px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.FieldsetContact {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-width: 10px;
+    border-color: rgba(20, 19, 19, 0.822) rgb(43, 38, 38);
+}
+
+.SectionForm {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 13px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    .NomPrenom {
+        display: flex;
+        justify-content: space-between;
+        width: 77%;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        font-size: xx-large;
+        padding: 0% 1% 0% 1%;
+    }
+
+    input {
+        height: 40px;
+        font-size: x-large;
+        border-radius: 5px;
+        border-color: $BackgroundAvis;
+    }
+}
+
+#SectionNom {
+    width: 200%;
+
+}
+
+#SectionPrénom {
+    width: 200%;
+}
+
+#SectionMessage {
+    height: 150px;
+}
+
+#Envoyer {
+    width: 40%;
+    margin-top: 2%;
+}
